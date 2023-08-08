@@ -1,0 +1,40 @@
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+#contenedor{
+  display: flex;
+}
+
+#contenedor-gato{
+  position: relative;
+}
+
+#right-heart{
+  position: absolute;
+  padding-top: 33%;
+  padding-left: 38%;
+}
+
+#left-heart{
+  position: absolute;
+  padding-top: 33%;
+  padding-left: 58%;
+}
+
+#contenedor-atun{
+  display: flex;
+  align-items: flex-end;
+}
