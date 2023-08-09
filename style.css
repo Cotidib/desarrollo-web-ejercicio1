@@ -1,3 +1,7 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
 .hide{
   display: none;
 }
@@ -8,17 +12,39 @@
 
 button{
   padding: 0.5rem 1rem;
-  background-color: green;
-  border: none;
+  background-color: #eea226;
+  border: 3px solid #804722;
   border-radius: 10px;
   color: white;
+  box-shadow: 5px 5px 1px #ce7a20 inset;
+  font-weight: bold;
 }
 
-#contenedor{
+.titulo-header{
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-top: 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenedor-flex{
   display: flex;
 }
 
-#contenedor-gato{
+#ej1{
+  background-color: rgb(174, 245, 245);
+  padding: 1rem;
+}
+
+#ej2{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid black;
+}
+
+#gato{
   position: relative;
 }
 
@@ -38,3 +64,24 @@ button{
   display: flex;
   align-items: flex-end;
 }
+
+/* Start - Combinadores */
+
+ul > li {
+  border-bottom: 5px solid red;
+}  
+
+ul > li::after{
+  content: "AFTER";
+  color: blue;
+}  
+
+ol > li:first-child{
+  color: green;
+}
+
+ol > li:first-child + li{
+  color: purple;
+}
+
+/* End - Combinadores */

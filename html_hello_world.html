@@ -6,21 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Desarrollo Web - HTML</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
 	  <script src="index.js"></script>
-    <h1>Hello World!</h1>
-    <div id="contenedor">
-      <div id="contenedor-gato">
-        <img id="right-heart" class="hide" width="57" src="https://i.pinimg.com/originals/f2/3f/f7/f23ff724ea2db446033f12afcbefc9eb.png" />
-        <img id="left-heart" class="hide" width="57" src="https://i.pinimg.com/originals/f2/3f/f7/f23ff724ea2db446033f12afcbefc9eb.png" />
-        <img src="https://static.vecteezy.com/system/resources/previews/013/078/569/original/illustration-of-cute-colored-cat-cartoon-cat-image-in-format-suitable-for-children-s-book-design-elements-introduction-of-cats-to-children-books-or-posters-about-animal-free-png.png" width="300px"/>
-      </div>
-      <div id="contenedor-atun">
-        <img id="atun" class="hide" src="https://cdn-icons-png.flaticon.com/512/1881/1881883.png" height="100"/>
+    <div id="ej1">
+      <h1>Hello World!</h1>
+      <button onClick="funcionSorpresa()">Click aca</button>
+      <div class="contenedor-flex">
+        <div id="gato">
+          <img id="right-heart" class="hide" width="57" src="https://i.pinimg.com/originals/f2/3f/f7/f23ff724ea2db446033f12afcbefc9eb.png" />
+          <img id="left-heart" class="hide" width="57" src="https://i.pinimg.com/originals/f2/3f/f7/f23ff724ea2db446033f12afcbefc9eb.png" />
+          <img src="https://static.vecteezy.com/system/resources/previews/013/078/569/original/illustration-of-cute-colored-cat-cartoon-cat-image-in-format-suitable-for-children-s-book-design-elements-introduction-of-cats-to-children-books-or-posters-about-animal-free-png.png" width="300px"/>
+        </div>
+        <div id="contenedor-atun">
+          <img id="atun" class="hide" src="https://cdn-icons-png.flaticon.com/512/1881/1881883.png" height="100"/>
+        </div>
       </div>
     </div>
-    <br/>
-    <button onClick="funcionSorpresa()">Click aca</button>
+    <hr/>
+    <div id="ej2">
+      <h1 class="titulo-header">CSS: Combinadores</h1>
+      <ul>
+        <li>Unordered Item
+          <ol>
+            <li>Ordered Item 1</li>
+            <li>Ordered Item 2</li>
+          </ol>
+        </li>
+        <li>Unordered Item</li>
+      </ul>
+    </div>
   </body>
 </html>
