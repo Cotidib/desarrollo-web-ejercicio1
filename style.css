@@ -20,6 +20,10 @@ button{
   font-weight: bold;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .titulo-header{
   background-color: black;
   color: white;
@@ -33,15 +37,14 @@ button{
   display: flex;
 }
 
+.card{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding-bottom: 1rem;
+}
+
 #ej1{
   background-color: rgb(174, 245, 245);
   padding: 1rem;
-}
-
-#ej2{
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border: 1px solid black;
 }
 
 #gato{
@@ -66,6 +69,12 @@ button{
 }
 
 /* Start - Combinadores */
+
+#ej2{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* border: 1px solid black; */
+}
 
 ul > li {
   border-bottom: 5px solid red;
